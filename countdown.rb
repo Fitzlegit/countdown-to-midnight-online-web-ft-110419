@@ -1,6 +1,9 @@
 require 'pry'
 
 #write your code here
+def countdown
+  sleep
+
 
 def countdown(num)
   while num >= 0
