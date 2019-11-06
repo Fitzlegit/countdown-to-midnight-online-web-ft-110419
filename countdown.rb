@@ -1,15 +1,15 @@
 require 'pry'
 
 #write your code here
-def countdown_with_sleep(num)
-  sleep(num)
+def countdown_with_sleep(count)
+  sleep(count)
 end
 
 
 def countdown(num)
   while num >= 0
     puts "#{num} SECOND(S)!"
-    countdown_with_sleep(num)
+    countdown_with_sleep(count)
      num -= 1
   end
   p "HAPPY NEW YEAR!"
