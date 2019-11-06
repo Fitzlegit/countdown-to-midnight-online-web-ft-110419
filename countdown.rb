@@ -11,8 +11,7 @@ def countdown(num)
   while num >= 0
     puts "#{num} SECOND(S)!"
     countdown_with_sleep(seconds_num)
-     num -= 1
+    num -= 1
   end
   p "HAPPY NEW YEAR!"
 end
-#binding.pry
